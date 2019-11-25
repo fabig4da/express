@@ -1,0 +1,140 @@
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+body 
+    input[type="button"]
+        cursor: pointer
+        font-weight: bold
+        font-size: 1.2em
+        color: #ffffff
+    background: #ececec
+    header
+        width: 75%
+        margin: 0 auto
+        h1 
+            background: #1f1d1d
+            height: 150px
+            color: #ffffff 
+            text-align: center
+            line-height: 120px
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+            font-size: 5em
+            
+        nav 
+            width: 100%
+            background: #0594e7
+            height: 40px
+            display: flex
+            justify-content: center
+            align-items: center
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+            font-size: 1.2em
+            color: #ffffff
+            cursor: pointer
+    main 
+        width: 75%
+        background: #ffffff
+        margin: 0 auto
+        display: grid
+        grid-template-columns: 39.5% 59.5%
+        grid-template-rows: auto
+        &>section, &>aside 
+            margin-top: 10px
+            
+        #principal 
+            grid-column: 2
+            width: 100%
+            &>div 
+                width: 80%
+                
+                
+                margin: 0 auto
+                #item
+                    background: #58ffbf
+                    margin-top: 5px
+                    display: grid
+                    grid-template-columns: 20% 60% 20%
+                    grid-template-rows: 100px
+                    img 
+                        width: 90px
+                        margin: 5px auto
+                        cursor: pointer
+                    h3 
+                        line-height: 50px
+                    &>strong 
+                        background: #ff2d2db4
+                        border-radius: 10px
+                        height: 90px
+                        margin-top: 5px
+                        text-align: center
+                        line-height: 90px
+                        font-size: 1.5em
+                        color: #ffffff
+                        cursor: pointer
+            form 
+                width: 80%
+                margin: 0 auto 
+                background: #95e6fa    
+                h4 
+                    text-align: center
+                    font-size: 1.3em
+                    font-weight: bold      
+                input 
+                    display: block
+                    width: 90%
+                    padding: 10px
+                    margin: 10px auto
+                    &:last-child
+                        border: none
+                        background: #0594e7
+                        margin-bottom: 10px
+                ul 
+                    width: 100%
+                    height: 40px
+                    list-style: none
+                    li 
+                        width: 90%
+                        height: 100%
+                        margin: 10px auto
+                        background: #58ffbf
+                        h2 
+                            float: left 
+                            line-height: 40px
+                            margin-left: 10px
+                        &>strong 
+                            float: right
+                            cursor: pointer
+                            color: #ff0101
+                            font-size: 1.3em
+                            line-height: 40px
+                            margin-right: 10px
+
+
+                
+        aside 
+            grid-column: 1
+            grid-row: 1
+            &>section 
+                width: 90%
+                background: #bfeaf0
+                margin: 0 auto
+                form 
+                    width: 80%
+                    margin: 0 auto                
+                input 
+                    width: 100%
+                    padding: 10px
+                    margin: 10px auto
+                    &:last-child
+                        border: none
+                        background: #0594e7
+
+    .form 
+        input 
+            display: block
+            width: 80%
+        
+
+            
+            
